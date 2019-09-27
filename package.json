@@ -1,0 +1,41 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --fix && echo ESLint Passed ✔ ",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router": "^3.2.4",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-manifest-plugin": "^2.1.2"
+  }
+}
