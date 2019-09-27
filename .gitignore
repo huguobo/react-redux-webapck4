@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# npm
+node_modules
+.npm
+package-lock.json
+
+#system
+.idea/
+.DS_Store
+**/.DS_Store
+
+*.swp
+.vscod
+
+#dist
+/public
